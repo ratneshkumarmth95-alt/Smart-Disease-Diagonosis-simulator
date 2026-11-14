@@ -1,9 +1,26 @@
 # Smart Disease Diagnosis Simulator
 
-> **College / second-Year Academic Java Project**  
+> **College Academic Java Project & Modern Full-Stack Web Platform**  
 > **Topic:** Health Symptom Analysis & Wellness Tracking Simulator  
-> **Technology:** Java (Core + Swing GUI + OOP + Collections + JDBC/MySQL)  
+> **Java Desktop:** Java (Core + Swing GUI + OOP + Collections + JDBC/MySQL)  
+> **Web Application (`/web`):** React 19 + TypeScript + Vite + Tailwind CSS + Supabase (Vercel Ready)  
 > **Important Safety Note:** This is an educational simulation, **not a real medical diagnostic system**. All results are labeled as "Symptom Compatibility Patterns" and include recommendations to consult qualified healthcare professionals.
+
+---
+
+## 🌐 Modern Web Version (React + TypeScript + Vercel)
+
+A modern full-stack web application is available in the [`/web`](./web) directory:
+- **Instant Demo Mode**: Fully functional with pre-seeded data directly in the browser via LocalStorage.
+- **Vercel Deployable**: Includes `vercel.json` with SPA routing and zero-config deployment.
+- **Cloud Database Ready**: Optional Supabase integration (PostgreSQL with RLS).
+- **Run Locally**:
+  ```bash
+  cd web
+  npm install
+  npm run dev
+  ```
+- Detailed setup & deployment guide: [`web/README.md`](./web/README.md).
 
 ---
 
