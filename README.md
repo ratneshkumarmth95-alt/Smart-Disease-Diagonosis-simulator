@@ -1,6 +1,6 @@
 # Smart Disease Diagnosis Simulator
 
-> **College / Third-Year Academic Java Project**  
+> **College / second-Year Academic Java Project**  
 > **Topic:** Health Symptom Analysis & Wellness Tracking Simulator  
 > **Technology:** Java (Core + Swing GUI + OOP + Collections + JDBC/MySQL)  
 > **Important Safety Note:** This is an educational simulation, **not a real medical diagnostic system**. All results are labeled as "Symptom Compatibility Patterns" and include recommendations to consult qualified healthcare professionals.
