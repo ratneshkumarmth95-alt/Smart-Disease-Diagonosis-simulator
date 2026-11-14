@@ -126,18 +126,4 @@ The app works completely in offline mode by default. If you want persistent MySQ
    ```
 4. Re-compile and run.
 
----
 
-## 🎓 6. Academic Viva Highlights
-
-When presenting this project:
-1. **Separation of Concerns**: Model-View-Controller (MVC) separation where UI code (`ui`) is decoupled from business logic (`service`) and data access (`repository`).
-2. **Design Patterns**:
-   - **Singleton Pattern**: Used in `AppContext`, `DatabaseConnection`, and `KnowledgeBase`.
-   - **DAO Pattern**: Used in all repository classes for clean JDBC abstraction.
-   - **Factory/Composition Pattern**: Dynamic UI components, weighted condition matching links.
-3. **Algorithms**:
-   - Weighted scoring matching formula with non-linear multipliers.
-   - Emergency short-circuiting override logic.
-   - Streak calculation with calendar day boundaries.
-4. **Security**: SHA-256 password hashing with cryptographically secure salt (`SecureRandom`). Input sanitization against injection attacks.
